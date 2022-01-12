@@ -978,8 +978,8 @@ footer font {
 }
 
 .loader {
-    background: #fff url("loader.gif/loader2.gif") no-repeat center center;
-    background-size: 30%;
+    background: #000 url("loader.gif/loader5.gif") no-repeat center center;
+    background-size: 15%;
     height: 100vh;
     width: 100%;
     position: fixed;
