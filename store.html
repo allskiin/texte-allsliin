@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Allskiin</title>
+
+    <!----<link rel="shortcut icon" href="imagens/logo.png">---->
+    <link rel="stylesheet" type="text/css" href="store-styles.css">
+    <!--using fontAwesome--------------->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+
+    <div class="loader"></div>
+    <div class='ripple-background'>
+        <div class='circle xxlarge shade1'></div>
+        <div class='circle xlarge shade2'></div>
+        <div class='circle large shade3'></div>
+        <div class='circle mediun shade4'></div>
+        <div class='circle small shade5'></div>
+    </div>
+
+    <section class="main" id="top">
+        <!---logo--------------------------->
+        <div class="logo">
+            <a href="#">
+                <font>all</font>skiin</a>
+        </div>
+        <nav class="nav">
+            <div class="navigation container">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="login/login.html" class="nav-link icon"><i class="bx bx-user"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Cart_HtmlPage.html" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sobre-mim/home.html" class="nav-link icon"><i class="bx bx-home"></i></a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <!----search-------------->
+        <div class="search">
+            <div class="icone"></div>
+            <!----input-------------->
+            <div class="input">
+                <!------- <input type="text" placeholder="Search"> --->
+                <input type="text" placeholder="Search" id="mysearch">
+            </div>
+            <span class="clear" onclick="document.getElementById('mysearch').value = ''"></span>
+        </div>
+        <!--main-img------------>
+        <div class="main-img">
+            <img src="imagens/img-main.png" alt="" />
+        </div>
+        <!--main-text------------>
+        <div class="main-text">
+            <h1>Ve
+                <font>rão</font>
+            </h1>
+            <h2>Col
+                <font>eção</font>
+            </h2>
+            <!---btn----->
+            <a href="#" class="main-btn">Detalhes</a>
+        </div>
+        <!--Social------------>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </section>
+
+
+    <!--product------------>
+    <section class="product">
+        <!--heading------------>
+        <div class="p-heading">
+            <h3>T-shirts
+                <font> all</font>skiin</h3>
+        </div>
+        <!--product-box-container------------>
+        <div class="product-container">
+            <div class="p-box">
+                <!--img--------->
+                <img src="tsherts-img/tshert1.png" alt="">
+                <ul class="icons">
+                    <a><i class="far fa-heart fa-xs"></i></a>
+                    <a href=""><i class="fas fa-shopping-bag fa-xs"></i></a>
+                    <a href=""><i class="fas fa-search fa-xs"></i></a>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star bxs-xs"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <!---details------>
+                <p>...</p>
+                <!--price----->
+                <a href="#" class="price">3.999,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="p-box">
+
+                <!--img--------->
+
+                <img src="tsherts-img/tshert2.png" alt="">
+                <ul class="icons">
+                    <a><i class="far fa-heart fa-xs"></i></a>
+                    <a href=""><i class="fas fa-shopping-bag fa-xs"></i></a>
+                    <a href=""><i class="fas fa-search fa-xs"></i></a>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <!---details------>
+                <p>...</p>
+                <!--price----->
+                <a href="#" class="price">4.000,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="p-box">
+                <!--img--------->
+                <img src="tsherts-img/tshert3.png" alt="">
+                <ul class="icons">
+                    <span><a><i class="far fa-heart fa-xs"></i></a></span>
+                    <span><a href="#"><i class="fas fa-shopping-bag fa-xs"></i></a></span>
+                    <span><a href="#"><i class="fas fa-search fa-xs"></i></a></span>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <!---details------>
+                <p>...</p>
+                <!--price----->
+                <a href="#" class="price">6.599,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="p-box">
+                <!--img--------->
+                <img src="tsherts-img/tshert4.png" alt="">
+                <ul class="icons">
+                    <a><i class="far fa-heart fa-xs"></i></a>
+                    <a href=""><i class="fas fa-shopping-bag fa-xs"></i></a>
+                    <a href=""><i class="fas fa-search fa-xs"></i></a>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <!---details------>
+                <p>...</p>
+                <!--price----->
+                <a href="#" class="price">4.899,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="p-box">
+                <!--img--------->
+                <img src="tsherts-img/" alt="">
+                <ul class="icons">
+                    <a><i class="far fa-heart fa-xs"></i></a>
+                    <a href=""><i class="fas fa-shopping-bag fa-xs"></i></a>
+                    <a href=""><i class="fas fa-search fa-xs"></i></a>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <!---details------>
+                <p>...</p>
+                <!--price----->
+                <a href="#" class="price">5.000,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="p-box">
+                <!--img--------->
+                <img src="imagens/" alt="">
+                <ul class="icons">
+                    <a><i class="far fa-heart fa-xs"></i></a>
+                    <a href=""><i class="fas fa-shopping-bag fa-xs"></i></a>
+                    <a href=""><i class="fas fa-search fa-xs"></i></a>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <!---details------>
+                <p>...</p>
+                <!--price----->
+                <a href="#" class="price">4.999,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!---our-brand------>
+    <search class="our-brand">
+        <!----text------>
+        <div class="brand-text">
+            <h3>Nossa Marca</h3>
+            <h4>Sapatos pequenos 2021 recém-chegados sapatos mini
+                <font> Mensageiro Clássicos</font>
+            </h4>
+            <p>Para escrever a descrição</p>
+        </div>
+        <!---img----->
+        <div class="brand-img">
+            <img class="" src="" alt="" />
+        </div>
+    </search>
+
+    <!---watches----->
+
+    <!--product------------>
+
+    <section class="product">
+
+        <!--heading------------>
+        <div class="p-heading">
+            <h3>Nike
+                <font> Sho</font>es</h3>
+        </div>
+
+        <!--product-box-container------------>
+        <div class="product-container">
+            <div class="p-box">
+                <!--img--------->
+                <img src="tenis-Nike-img/tenis1.png" alt="">
+
+                <ul class="icons">
+                    <a><i class="far fa-heart fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-shopping-bag fa-xs"></i></a>
+                    <a href="search-info/nike-shoes/search-nike-s.html"><i class="fas fa-search fa-xs"></i></a>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+
+                <!---details------>
+                <p>Nike Air Force 1</p>
+                <!--price----->
+                <a href="#" class="price">41.499,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="p-box">
+
+                <!--img--------->
+
+                <img src="tenis-Nike-img/tenis2.png" alt="">
+                <ul class="icons">
+
+                    <a><i class="far fa-heart fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-shopping-bag fa-xs"></i></a>
+                    <a href="search-info/nike-shoes/search-nike-s.html"><i class="fas fa-search fa-xs"></i></a>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <!---details------>
+                <p>...</p>
+                <!--price----->
+                <a href="#" class="price">48.000,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="p-box">
+                <!--img--------->
+                <img src="tenis-Nike-img/tenis3.png" alt="">
+                <ul class="icons">
+                    <a><i class="far fa-heart fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-shopping-bag fa-xs"></i></a>
+                    <a href="search-info/nike-shoes/search-nike-s.html"><i class="fas fa-search fa-xs"></i></a>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <!---details------>
+                <p>...</p>
+                <!--price----->
+                <a href="#" class="price">60.000,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="p-box">
+                <!--img--------->
+                <img src="tenis-Nike-img/tenis4.png" alt="">
+                <ul class="icons">
+                    <a><i class="far fa-heart fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-shopping-bag fa-xs"></i></a>
+                    <a href="search-info/nike-shoes/search-nike-s.html"><i class="fas fa-search fa-xs"></i></a>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <!---details------>
+                <p>...</p>
+                <!--price----->
+                <a href="#" class="price">43.999,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="p-box">
+                <!--img--------->
+                <img src="tenis-Nike-img/tenis5.png" alt="">
+                <ul class="icons">
+                    <a><i class="far fa-heart fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-shopping-bag fa-xs"></i></a>
+                    <a href="search-info/nike-shoes/search-nike-s.html"><i class="fas fa-search fa-xs"></i></a>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <!---details------>
+                <p>...</p>
+                <!--price----->
+                <a href="#" class="price">52.125,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="p-box">
+                <!--img--------->
+                <img src="tenis-Nike-img/tenis6.png" alt="">
+                <ul class="icons">
+                    <a><i class="far fa-heart fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-shopping-bag fa-xs"></i></a>
+                    <a href="search-info/nike-shoes/search-nike-s.html"><i class="fas fa-search fa-xs"></i></a>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <!---details------>
+                <p>...</p>
+                <!--price----->
+                <a href="#" class="price">67.990,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!---our-brand------>
+    <search class="our-brand">
+        <!----text------>
+        <div class="brand-text">
+            <h3>Nossa Marca</h3>
+            <h4>Sapatos pequenos 2021 recém-chegados sapatos mini
+                <font> Mensageiro Clássicos</font>
+            </h4>
+            <p>Para escrever a descrição</p>
+        </div>
+        <!---img----->
+        <div class="brand-img">
+            <img class="" src="" alt="" />
+        </div>
+    </search>
+
+
+    <section class="product">
+        <!--heading------------>
+        <div class="p-heading">
+            <h3>ADIDAS
+                <font> Sho</font>es</h3>
+        </div>
+
+        <!--product-box-container------------>
+        <div class="product-container">
+            <div class="p-box">
+                <!--img--------->
+                <img src="tenis-adidas-img/adidas-shoes1.png" width="220px" alt="">
+
+                <ul class="icons">
+                    <a><i class="far fa-heart fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-shopping-bag fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-search fa-xs"></i></a>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+
+                <!---details------>
+                <p>Nike Air Force 1</p>
+                <!--price----->
+                <a href="#" class="price">41.499,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="p-box">
+
+                <!--img--------->
+
+                <img src="tenis-adidas-img/adidas-shoes2.jpg" alt="">
+                <ul class="icons">
+
+                    <a><i class="far fa-heart fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-shopping-bag fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-search fa-xs"></i></a>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <!---details------>
+                <p></p>
+                <!--price----->
+                <a href="#" class="price">48.000,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="p-box">
+                <!--img--------->
+                <img src="" alt="">
+                <ul class="icons">
+                    <a><i class="far fa-heart fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-shopping-bag fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-search fa-xs"></i></a>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <!---details------>
+                <p>B</p>
+                <!--price----->
+                <a href="#" class="price">60.000,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="p-box">
+                <!--img--------->
+                <img src="" alt="">
+                <ul class="icons">
+                    <a><i class="far fa-heart fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-shopping-bag fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-search fa-xs"></i></a>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <!---details------>
+                <p>...</p>
+                <!--price----->
+                <a href="#" class="price">43.999,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="p-box">
+                <!--img--------->
+                <img src="" alt="">
+                <ul class="icons">
+                    <a><i class="far fa-heart fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-shopping-bag fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-search fa-xs"></i></a>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <!---details------>
+                <p>...</p>
+                <!--price----->
+                <a href="#" class="price">52.125,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="p-box">
+                <!--img--------->
+                <img src="" alt="">
+                <ul class="icons">
+                    <a><i class="far fa-heart fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-shopping-bag fa-xs"></i></a>
+                    <a href="#"><i class="fas fa-search fa-xs"></i></a>
+                </ul>
+                <div class="ratting">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <!---details------>
+                <p>...</p>
+                <!--price----->
+                <a href="#" class="price">67.990,00 AOA</a>
+                <!--buy-btn------>
+                <a href="#" class="buy-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!----Subcribe---->
+    <section class="subcribe-container">
+        <!--heading---->
+        <h3>Inscreva-se Para Receber <br>Notificacoes De Novos Produtos</h3>
+        <!---input---->
+        <div class="subcribe-input">
+            <input type="email" placeholder="exemplo@gmail.com" />
+            <!----btn------->
+            <a class="subcribe-btn" href="#">Enviar</a>
+        </div>
+    </section>
+    <!--top---------->
+
+    <a href="#top" class="top"><i class="bx bx-chevron-up"></i></a>
+
+    <a class="mode"><i class="fas fa-moon" id="mode"></i></a>
+
+
+
+    <!---footer------->
+    <footer>
+        <h3>
+            <font>all</font>skiin</h3>
+        <!---footer-menu---->
+        <ul class="footer-menu">
+            <li><a href="#" class="bg">Homens</a></li>
+            <li><a href="#" class="bg">Mulheres</a></li>
+            <li><a href="#" class="bg">Crianças</a></li>
+            <li><a href="#" class="bg">Tênis</a></li>
+            <li><a href="#" class="bg">Camisas</a></li>
+        </ul>
+    </footer>
+
+    <!---copyright-------->
+    <a href="#" class="copyright">allskiin</a>
+
+    <script>
+        const icone = document.querySelector('.icone');
+        const search = document.querySelector('.search');
+
+        icone.onclick = function() {
+            search.classList.toggle('active');
+        }
+
+        var mode = document.getElementById("mode");
+
+        mode.onclick = function() {
+            document.body.classList.toggle("dark-theme");
+
+            if (document.body.classList.contains("dark-theme")) {
+                mode.id = "fas fa-sun";
+            } else {
+                mode.id = "fas fa-moon";
+            }
+        }
+    </script>
+
+    <script>
+        var loader = document.querySelector(".loader")
+
+        window.addEventListener("load", vanish);
+
+        function vanish() {
+            loader.classList.add("disppear");
+        }
+    </script>
+
+
+</body>
+
+</html>
