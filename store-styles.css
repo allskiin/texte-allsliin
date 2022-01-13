@@ -6,7 +6,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: myriad pro;
-    background: #3399ff;
+    background: var(--fundo);
 }
 
 * {
@@ -25,7 +25,7 @@ ul {
     width: 100%;
     height: 100vh;
     /*background-image: var(--primary-color); */
-    background: #3399ff;
+    background: var(--fundo);
     background-size: 800px;
     background-position: center;
     /*position: relative;*/
@@ -757,6 +757,7 @@ footer font {
     --social-icone: rgba(39, 39, 39, 0.8);
     --mode: #575858;
     --user-pay: #ff0000;
+  --fundo: #3399ff;
 }
 
 .dark-theme {
@@ -778,6 +779,7 @@ footer font {
     --social-icone: rgba(255, 255, 255, 0.8);
     --mode: #287dfb;
     --user-pay: #ff0000;
+    --fundo: #000;
 }
 
 .mode {
