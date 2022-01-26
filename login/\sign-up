@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Created By Codecary -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>allskiin-cadastrar</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div class="container">
+    <h1>Cadastrar</h1>
+    <form>
+      <div class="form-control">
+        <input type="text" required>
+        <label>Nome</label>
+      </div>
+      <div class="form-control">
+        <input type="text" required>
+        <label>Email</label>
+      </div>
+      <div class="form-control">
+        <input type="password" required>
+        <label>Senha</label>
+      </div>
+      <div class="form-control">
+        <input type="password" required>
+        <label>Confirmar Senha</label>
+      </div>
+      <button class="btn">Cadastrar</button>
+      <p class="text">já tem uma conta? <a href="login.html">entrar</a></p>
+    </form>
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>
