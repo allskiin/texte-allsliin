@@ -1,4 +1,10 @@
 @charset "utf-8";
+
+@font-face {
+  font-family: MoonTime-Regular;
+  src: url('fonts/moontime/MoonTime-Regular.ttf'); 
+}
+
 body {
     /*background-image: var(--primary-color);*/
     background-size: 400px;
@@ -40,7 +46,7 @@ ul {
 
 .logo a {
     position: absolute;
-    font-family: poppins;
+    font-family: MoonTime-Regular;
     font-weight: 700;
     color: var(--logo);
     font-size: 2rem;
