@@ -60,7 +60,7 @@ ul {
     letter-spacing: 1px;
     font-style: italic;
 }
-.logo a h1 {
+.logo a, h1 {
     position: absolute;
     font-family: MoonTime-Regular;
     font-weight: 800;
