@@ -46,17 +46,16 @@ ul {
 
 .logo a {
     position: absolute;
-    font-family: myriad pro;
-    font-weight: 700;
+    font-family: MoonTime-Regular;
+    font-weight: 800;
     color: var(--logo);
-    font-size: 2rem;
+    font-size: 3rem;
     text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
     letter-spacing: 1px;
     font-style: italic;
 }
 
 .logo font {
-    font-family: MoonTime-Regular;
     color: #287dfc;
 }
 
