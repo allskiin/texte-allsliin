@@ -55,7 +55,7 @@ ul {
     font-family: BukhariScript-Regular;
     font-weight: 800;
     color: var(--logo);
-    font-size: 3rem;
+    font-size: 2rem;
     text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
     letter-spacing: 1px;
     font-style: italic;
@@ -65,10 +65,12 @@ ul {
     font-family: MoonTime-Regular;
     font-weight: 800;
     color: var(--logo);
-    font-size: 3rem;
-    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    font-size: 4.5rem;
+    text-shadow: 2px 2px 30px rgb(0 0 0 / 20%);
     letter-spacing: 1px;
     font-style: italic;
+    margin-top: -60px;
+    margin-left: 37px;
 }
 
 .logo font {
