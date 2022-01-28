@@ -757,7 +757,8 @@ footer font {
     --social-icone: rgba(39, 39, 39, 0.8);
     --mode: #575858;
     --user-pay: #ff0000;
-  --fundo: #3399ff;
+    --product: ;
+    --fundo: #b2c2d1;
 }
 
 .dark-theme {
@@ -780,6 +781,7 @@ footer font {
     --mode: #287dfb;
     --user-pay: #ff0000;
     --fundo: #000;
+    --product: ;
 }
 
 .mode {
