@@ -940,39 +940,39 @@ footer font {
     }
     
         .small {
-        width: 80px;
-        height: 800px;
-        left: -30px;
-        bottom: -300px;
-        }
+    width: 100px;
+    height: 100px;
+    left: -50px;
+    bottom: -50px;
+}
 
-        .medium {
-            width: 180px;
-            height: 180px;
-            left: -180px;
-            bottom: -180px;
-        }
+.medium {
+    width: 200px;
+    height: 200px;
+    left: -100px;
+    bottom: -100px;
+}
 
-        .large {
-            width: 280px;
-            height: 280px;
-            left: -180px;
-            bottom: -180px;
-        }
+.large {
+    width: 300px;
+    height: 300px;
+    left: -150px;
+    bottom: -150px;
+}
 
-        .xlarge {
-            width: 380px;
-            height: 380px;
-            left: -180px;
-            bottom: -180px;
-        }
+.xlarge {
+    width: 400px;
+    height: 400px;
+    left: -200px;
+    bottom: -200px;
+}
 
-        .xxlarge {
-            width: 480px;
-            height: 480px;
-            left: -180px;
-            bottom: -180px;
-        }
+.xxlarge {
+    width: 500px;
+    height: 500px;
+    left: -250px;
+    bottom: -250px;
+}
 
     
 }
