@@ -381,7 +381,7 @@ h2 {
 .product {
     width: 85%;
     /*background-color: var(--write);*/
-    background-color: #8ec6ff;
+    background-color: var(--product);
     box-shadow: 2px 2px 30px rgba(111, 111, 111, 0.2);
     display: flex;
     margin: 30px auto;
@@ -757,7 +757,7 @@ footer font {
     --social-icone: rgba(39, 39, 39, 0.8);
     --mode: #575858;
     --user-pay: #ff0000;
-    --product: ;
+    --product: #ecf1f5;
     --fundo: #b2c2d1;
 }
 
@@ -781,7 +781,7 @@ footer font {
     --mode: #287dfb;
     --user-pay: #ff0000;
     --fundo: #000;
-    --product: ;
+    --product: #525252;
 }
 
 .mode {
