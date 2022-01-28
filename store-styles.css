@@ -60,7 +60,7 @@ ul {
     letter-spacing: 1px;
     font-style: italic;
 }
-.logo a, h1 {
+.logo h1 {
     position: absolute;
     font-family: MoonTime-Regular;
     font-weight: 800;
@@ -887,7 +887,7 @@ footer font {
         right: 30px;
     }
     .logo a {
-        font-size: 1.8rem;
+        font-size: 1.3rem;
         top: 30px;
     }
     .nav-list {
