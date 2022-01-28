@@ -5,6 +5,12 @@
   src: url('fonts/moontime/MoonTime-Regular.ttf'); 
 }
 
+@font-face {
+  font-family: BukhariScript-Regular;
+  src: url('fonts/bukhari/BukhariScript-Regular.ttf'); 
+}
+
+
 body {
     /*background-image: var(--primary-color);*/
     background-size: 400px;
@@ -46,7 +52,7 @@ ul {
 
 .logo a {
     position: absolute;
-    font-family: MoonTime-Regular;
+    font-family: BukhariScript-Regular;
     font-weight: 800;
     color: var(--logo);
     font-size: 3rem;
@@ -56,6 +62,7 @@ ul {
 }
 
 .logo font {
+  font-family: MoonTime-Regular;
     color: #287dfc;
 }
 
