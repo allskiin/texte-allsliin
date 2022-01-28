@@ -938,6 +938,43 @@ footer font {
     .copyright {
         text-align: center;
     }
+    
+        .small {
+        width: 80px;
+        height: 800px;
+        left: -30px;
+        bottom: -300px;
+        }
+
+        .medium {
+            width: 180px;
+            height: 180px;
+            left: -180px;
+            bottom: -180px;
+        }
+
+        .large {
+            width: 280px;
+            height: 280px;
+            left: -180px;
+            bottom: -180px;
+        }
+
+        .xlarge {
+            width: 380px;
+            height: 380px;
+            left: -180px;
+            bottom: -180px;
+        }
+
+        .xxlarge {
+            width: 480px;
+            height: 480px;
+            left: -180px;
+            bottom: -180px;
+        }
+
+    
 }
 
 @media(max-width:320px) {
