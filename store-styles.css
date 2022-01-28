@@ -52,7 +52,7 @@ ul {
 
 .logo a {
     position: absolute;
-    font-family: BukhariScript-Regular;
+    font-family: MoonTime-Regular;
     font-weight: 800;
     color: var(--logo);
     font-size: 3rem;
@@ -62,7 +62,7 @@ ul {
 }
 
 .logo font {
-  font-family: MoonTime-Regular;
+  font-family: BukhariScript-Regular;
     color: #287dfc;
 }
 
