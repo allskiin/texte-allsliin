@@ -1058,15 +1058,16 @@ footer font {
   flex-wrap: wrap; }
 
 .loader1 {
-  width: 50vw;
-  height: 50vh;
-  border: 1px solid mistyrose;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; 
-z-index: 100;
-position: fixed;}
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+}
 
 #ld2 {
   display: flex;
