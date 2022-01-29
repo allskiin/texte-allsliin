@@ -1107,3 +1107,14 @@ footer font {
   100% {
     transform: scaleY(1);
     background: #D91E36; } }
+
+.disppear {
+    animation: vanish 1s forwards;
+}
+
+@keyframes vanish {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
