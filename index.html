@@ -18,7 +18,7 @@
 <body>
 
     <div class="grid">
-      <div class="loader1">
+      <div class="loader1" id="fadeOut">
         <div id="ld2">
           <div>
           </div>
@@ -646,6 +646,18 @@
     <a href="#" class="copyright">allskiin</a>
 
     <script>
+        
+        
+        window.onload = function (){
+        window.addEventListener("onload", function () {
+            $('.loader1').show();
+          });
+          setTimeout(function(){
+            $('.loader1').hide();
+          }, 6500);}
+        
+        
+        
         const icone = document.querySelector('.icone');
         const search = document.querySelector('.search');
 
