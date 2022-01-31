@@ -423,6 +423,7 @@ h2 {
     text-align: center;
     font-size: 2rem;
     color: var(--main-btn);
+    font-family: 'Audiowide';
 }
 
 .p-heading font {
@@ -600,6 +601,7 @@ a:hover .p-box::aflter {
     font-weight: 700;
     font-size: 2rem;
     margin: 0px;
+    font-family: 'Audiowide';
 }
 
 .brand-text h4 {
@@ -607,12 +609,14 @@ a:hover .p-box::aflter {
     font-weight: 400;
     font-size: 3rem;
     margin: 0px;
+    font-family: 'Audiowide';
 }
 
 .brand-text p {
     font-size: 1rem;
     color: #8F8F8F;
     letter-spacing: 0.5px;
+    font-family: 'Audiowide';
 }
 
 .brand-text font {
@@ -672,6 +676,7 @@ a:hover .p-box::aflter {
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
     font-size: 0.8rem;
     letter-spacing: 0.5px;
+    font-family: 'Audiowide';
 }
 
 .subcribe-btn:hover {
@@ -695,6 +700,7 @@ footer h3 {
     font-size: 2.5rem;
     color: var(--logo);
     margin: 0px;
+    font-family: 'Audiowide';
 }
 
 footer font {
