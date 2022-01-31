@@ -323,6 +323,7 @@ h2 {
     letter-spacing: 3px;
     color: var(--main-btn);
     text-transform: uppercase;
+    font-family: 'Audiowide';
 }
 
 .main-btn {
@@ -347,7 +348,8 @@ h2 {
 }
 
 .main-text h1 {
-    letter-spacing: 28px;
+    letter-spacing: 20px;
+    font-family: 'Audiowide';
 }
 
 .main-text font {
@@ -729,6 +731,7 @@ footer font {
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
     background: var(--write);
     border-radius: 20px;
+    font-family: 'Audiowide';
 }
 
 .footer-menu .bg:hover {
@@ -969,7 +972,7 @@ footer font {
     }
     .main-text h1,
     h2 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         letter-spacing: 10px;
         margin: 0px 20px;
         line-height: 40px;
@@ -993,7 +996,7 @@ footer font {
         font-size: 1.5rem;
     }
     .subcribe-container h3 {
-        font-size: 1.4rem;
+        font-size: 1rem;
         text-align: center;
     }
     .subcribe-input {
