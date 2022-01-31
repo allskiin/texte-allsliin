@@ -631,10 +631,10 @@ a:hover .p-box::aflter {
 }
 
 .subcribe-container h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--subcribe-h3);
     text-align: center;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Audiowide';
 }
 
 .subcribe-input {
