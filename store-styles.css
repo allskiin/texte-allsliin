@@ -1015,6 +1015,12 @@ footer font {
         box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
         padding: 10px 30px;
     }
+    
+    footer h3 {
+    font-size: 1.5rem;
+    }
+    
+    
     .copyright {
         text-align: center;
     }
@@ -1048,6 +1054,13 @@ footer font {
         left: -250px;
         bottom: -250px;
     }
+    
+    .brand-text h4 {
+    font-size: 1rem;
+}
+    .brand-text h3 {
+    font-size: 1rem;
+}
 }
 
 @media(max-width:320px) {
