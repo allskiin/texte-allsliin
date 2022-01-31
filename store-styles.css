@@ -684,6 +684,7 @@ a:hover .p-box::aflter {
 .subcribe-btn:hover {
     background-color: #6b60ec;
     transition: all ease 0.5s;
+    color: #fff;
 }
 
 footer {
