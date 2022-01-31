@@ -634,6 +634,7 @@ a:hover .p-box::aflter {
     font-size: 2rem;
     color: var(--subcribe-h3);
     text-align: center;
+    font-family: 'Audiowide', cursive;
 }
 
 .subcribe-input {
