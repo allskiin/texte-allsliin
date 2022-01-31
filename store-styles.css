@@ -740,10 +740,7 @@ footer font {
     justify-content: center;
     align-items: center;
     padding: 15px;
-}
-
-.copyright a{
-    font-size: Audiowide;
+    font-family: 'Audiowide', cursive;
 }
 
 .top {
