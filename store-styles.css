@@ -94,7 +94,7 @@ ul {
 .circle {
     position: absolute;
     border-radius: 50%;
-    background: white;
+    background: var(--ciclo);
     animation: ripple 15s infinite;
     box-shadow: 0px 0px 1px 0px #508fb9;
 }
@@ -797,7 +797,8 @@ footer font {
     --mode: #575858;
     --user-pay: #ff0000;
     --product: #ecf1f5;
-    --fundo: #b2c2d1;
+    --fundo: #ffffff;
+    --ciclo:#524949;
 }
 
 .dark-theme {
@@ -821,6 +822,7 @@ footer font {
     --user-pay: #ff0000;
     --fundo: #000;
     --product: #525252;
+    --ciclo: #fff;
 }
 
 .mode {
