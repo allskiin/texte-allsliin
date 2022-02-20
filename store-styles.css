@@ -218,7 +218,7 @@ ul {
     height: 100%;
     border: none;
     border-radius: 50px;
-    background: #fff;
+    background: var(--search);
     outline: none;
     padding: 0 60px 0 20px;
     font-size: 18px;
@@ -241,7 +241,7 @@ ul {
     transform: translateY(-50%);
     height: 60px;
     width: 60px;
-    background: #fff;
+    background: var(--search-icone);
     border-radius: 50%;
     text-align: center;
     line-height: 60px;
@@ -274,7 +274,7 @@ ul {
     top: 50%;
     transform: translateY(-50%);
     font-size: 25px;
-    color: #fff;
+    color: var(--cancel-icon);
     cursor: pointer;
     transition: all 0.5s 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -783,7 +783,7 @@ footer font {
     --black: #111111;
     --fff: #fff;
     --logo: #2f2e41;
-    --search: #287dfc;
+    --search: #2f2e41;
     --icon-nav: #287dfc;
     --main-btn: #2f2e41;
     --subcribe-h3: rgba(56, 56, 56);
@@ -792,13 +792,14 @@ footer font {
     --p-box-hover: #fff;
     --email-enviar: #000;
     --footer-menu-a: #ffffff;
-    --search-icone: #ff0000;
+    --search-icone: #fff;
     --social-icone: rgba(39, 39, 39, 0.8);
     --mode: #575858;
     --user-pay: #ff0000;
     --product: #ecf1f5;
     --fundo: #ffffff;
     --ciclo:#524949;
+    --cancel-icon: #000;
 }
 
 .dark-theme {
@@ -816,13 +817,14 @@ footer font {
     --p-box-hover: #3B3B41;
     --email-enviar: #717171;
     --footer-menu-a: #ffffff;
-    --search-icone: #030020;
+    --search-icone: #000;
     --social-icone: rgba(255, 255, 255, 0.8);
     --mode: #287dfb;
     --user-pay: #ff0000;
     --fundo: #000;
     --product: #525252;
     --ciclo: #fff;
+    --cancel-icon: #fff;
 }
 
 .mode {
