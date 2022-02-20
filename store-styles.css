@@ -241,12 +241,12 @@ ul {
     transform: translateY(-50%);
     height: 60px;
     width: 60px;
-    background: var(--search-icone);
+    background: var(--search);
     border-radius: 50%;
     text-align: center;
     line-height: 60px;
     font-size: 22px;
-    color: #664AFF;
+    color: var(--cancel-icon);
     cursor: pointer;
     z-index: 1;
     transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -263,8 +263,8 @@ ul {
     line-height: 50px;
     width: 50px;
     font-size: 20px;
-    background: #664AFF;
-    color: #fff;
+    background: var(--search-icon-active);
+    color: var(--search-icon-active-icon);
     transform: translateY(-50%) rotate(360deg);
 }
 
@@ -800,6 +800,8 @@ footer font {
     --fundo: #ffffff;
     --ciclo:#524949;
     --cancel-icon: #000;
+    --search-icon-active: #fff; 
+    --search-icon-active-icon: #000; 
 }
 
 .dark-theme {
@@ -825,6 +827,8 @@ footer font {
     --product: #525252;
     --ciclo: #fff;
     --cancel-icon: #fff;
+    --search-icon-active: #000; 
+    --search-icon-active-icon: #fff; 
 }
 
 .mode {
