@@ -246,14 +246,14 @@ ul {
     text-align: center;
     line-height: 60px;
     font-size: 22px;
-    color: var(--cancel-icon);
+    color: var(--search-icon-active);
     cursor: pointer;
     z-index: 1;
     transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .search-icon:hover{
-    color: #000; 
+    color: var(--icon-nav);
     transition: 1s;
 }
 
