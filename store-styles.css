@@ -198,7 +198,7 @@ ul {
 }
 
 .search-box {
-    position: fixed;
+    position: absolute;
     right: 90px;
     top: 50px;
     height: 60px;
