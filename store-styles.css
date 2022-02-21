@@ -170,6 +170,10 @@ ul {
     margin-right: 0.5rem;
 }
 
+.nav-item:hover{
+    color: #ff0000;
+}
+
 .nav-link:link,
 .nav-link:visited {
     padding: 0.8rem 1rem;
