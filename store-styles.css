@@ -691,7 +691,7 @@ a:hover .p-box::aflter {
 }
 
 .subcribe-btn:hover {
-    background-color: #6b60ec;
+    background-color: #008080;
     transition: all ease 0.5s;
     color: #fff;
 }
@@ -781,6 +781,13 @@ footer font {
     z-index: 1;
 }
 
+.top:hover {
+    background: #008080;
+    color: #fff;
+     transition: all ease 0.5s;
+}
+
+
 :root {
     /* --primary-color: url("fundo/item4.jpg"); */
     --write: #FFFFFF;
@@ -858,7 +865,8 @@ footer font {
 }
 
 .mode:hover {
-    background: #00acee;
+    background: #008080;
+     transition: all ease 0.5s;
 }
 
 .bx-user:hover {
