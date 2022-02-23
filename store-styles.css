@@ -866,6 +866,7 @@ footer font {
 
 .mode:hover {
     background: #008080;
+    color: #fff;
      transition: all ease 0.5s;
 }
 
