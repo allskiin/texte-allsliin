@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ken skiin • allskiin</title>
+    <link rel="stylesheet" href="details.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+</head>
+
+<body>
+
+
+
+    <header class="l-header">
+        <div class="loader"></div>
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <img src="../imagens/menu.svg" width="15px" height="15px" />
+            </div>
+            <div>
+                <a href="https://allskiin.github.io/allskiin">
+                    <font>all</font>
+                    <h1>skiin</h1>
+                </a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="../../store.html">HOME</a></li>
+                </ul>
+                <a class="mode"><i class="fas fa-moon" id="mode"></i></a>
+            </div>
+
+            <div class="nav__shop">
+                <a class="img" href="#"><i class="bx bx-shopping-bag"></i></a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="l-main bd-grid">
+        <div class="home">
+            <div class="sneaker">
+
+                <div class="sneaker__figure"></div>
+
+                <div>
+                    <img src="../Tsherts-allskiin-2022/allskiin_modelo1.png" alt="" class="sneaker__img shows" color="#A29596" />
+                    <img src="../../" alt="" class="sneaker__img" color="#111111" />
+                </div>
+
+                <div class="sneaker__colors">
+                    <span class="sneaker__color sneaker__colors-one active" primary="#A29596" color="#A29596"></span>
+                    <span class="sneaker__color sneaker__colors-two active" primary="#111111" color="#111111"></span>
+                </div>
+            </div>
+
+
+            <div class="info">
+                <div class="data">
+                    <span class="data__subtitle">allskiin</span>
+                    <h1 class="data__title">ken skiin</h1>
+                    <p class="data__description">A 'ken skiin' é o primeiro modelo de t-shert feito com técidos de ótima qualidade, 100% algodão <br>Cor: Branco / Preto Estilo: aliin-1s</p>
+                </div>
+
+                <div class="actions">
+                    <div class="size">
+                        <h3 class="size__title">Talkas</h3>
+
+                        <div class="size__content">
+                            <span class="size__tallas active">S</span>
+                            <span class="size__tallas active">M</span>
+                            <span class="size__tallas active">XL</span>
+                        </div>
+                    </div>
+
+                    <div class="cant">
+                        <h3 class="cant__title">Cant.</h3>
+
+                        <div class="cant__content">
+                            <span>-</span>
+                            <span>1</span>
+                            <span>+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="preci">
+                    <a class="preci__value">11.499,00 AOA</a>
+                    <a class="preci__button" href="#">COMPRAR</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="details.js"></script>
+
+    <script>
+        var loader = document.querySelector(".loader")
+
+        window.addEventListener("load", vanish);
+
+        function vanish() {
+            loader.classList.add("disppear");
+        }
+
+
+        var mode = document.getElementById("mode");
+
+        mode.onclick = function() {
+            document.body.classList.toggle("dark-theme");
+
+            if (document.body.classList.contains("dark-theme")) {
+                mode.id = "fas fa-sun";
+            } else {
+                mode.id = "fas fa-moon";
+            }
+        }
+    </script>
+</body>
+
+</html>
