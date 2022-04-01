@@ -193,6 +193,7 @@ a {
     height: 240px;
     border-radius: 50%;
     transition: .5s;
+    border: none;
 }
 
 .sneaker__img {
