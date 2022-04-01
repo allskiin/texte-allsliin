@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+/*
+
+$header-height: 3rem;
+$font-regular: 400;
+$font-medium: 500;
+$font-bold: 700;
+
+*/
+
+@font-face {
+    font-family: MoonTime-Regular;
+    src: url('../fonts/moontime/MoonTime-Regular.ttf');
+}
+
+@font-face {
+    font-family: BukhariScript-Regular;
+    src: url('../fonts/bukhari/BukhariScript-Regular.ttf');
+}
+
+:root {
+    --first-color: #A29596;
+    --primary: #A29596;
+    --second-color: #333030;
+    --black-color: #111111;
+    --write-color: #fff;
+    --fundo: url("../imagens/item4.jpg");
+    ;
+}
+
+:root {
+    --body-font: 'Nunito', sans-serif;
+    --biggest-font-size: 1.5rem;
+    --big-font-size: 1.5rem;
+    --normal-font-size: 0.938rem;
+    --smaller-font-size: 0.75rem;
+}
+
+.nav .bd-grid a {
+    position: absolute;
+    font-family: BukhariScript-Regular;
+    font-weight: 500;
+    color: var(--logo);
+    font-size: 2rem;
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.nav .bd-grid h1 {
+    position: absolute;
+    font-family: MoonTime-Regular;
+    font-weight: 500;
+    color: var(--logo);
+    font-size: 4.5rem;
+    text-shadow: 2px 2px 30px rgb(0 0 0 / 20%);
+    letter-spacing: 1px;
+    font-style: italic;
+    margin-top: -60px;
+    margin-left: 37px;
+}
+
+.nav .bd-grid font {
+    color: #287dfc;
+}
+
+@media screen and (min-width: 968px) {
+     :root {
+        --biggest-font-size: 3.25rem;
+        --big-font-size: 2.25rem;
+        --normal-font-size: 1rem;
+        --smaller-font-size: 0.813rem;
+    }
+}
+
+:root {
+    --z-back: -10;
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 3rem 0 0 0;
+    font-family: var(--body-font);
+    background-image: var(--fundo);
+    background-size: 400px;
+    background-position: center;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bd-grid {
+    max-width: 1200px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.l-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: var(--write-color);
+}
+
+.nav {
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preci__button:hover {
+    color: var(--write-color);
+    background: var(--black-color);
+}
+
+@media screen and (max-width: 968px) {
+    .nav__menu {
+        position: fixed;
+        left: -100%;
+        top: 3rem;
+        background-color: var(--write-color);
+        width: 60%;
+        height: 100%;
+        padding: 2rem;
+        z-index: var(--z-fixed);
+        transition: .3s;
+    }
+}
+
+.nav__item {
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.nav__link {
+    color: var(--black-color);
+}
+
+.nav__toggle {
+    cursor: pointer;
+}
+
+.show {
+    left: 0;
+}
+
+.home {
+    height: calc(100vh-3rem);
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+    grid-template-areas: 'sneaker';
+    overflow: hidden;
+}
+
+.sneaker {
+    grid-area: sneaker;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.sneaker__figure {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.sneaker__img {
+    width: 300px;
+    position: absolute;
+    top: -10%;
+    left: 4%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /*transform: rotate(30deg); */
+    /* opacity: 0; */
+    filter: drop-shadow(0 10px 10px rgba(17, 17, 17, 0.4));
+}
+
+.sneaker.shows {
+    opacity: 1;
+}
+
+.sneaker__colors {
+    position: absolute;
+    right: 2%;
+}
+
+.sneaker__color {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
+
+.sneaker__color .active {
+    border: 2px solid var(--write-color);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 1)
+}
+
+.sneaker__colors-one {
+    background-color: var(--first-color);
+}
+
+.sneaker__colors-two {
+    background-color: var(--black-color);
+}
+
+.data {
+    margin-bottom: 1.5rem;
+}
+
+.data__subtitle {
+    font-size: var(--normal-font-size);
+}
+
+.data__title {
+    font-family: 'Nunito';
+    font-size: var(--biggest-font-size);
+    margin-bottom: .5rem;
+}
+
+.data__description {
+    font-size: var(--normal-font-size);
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.size__title {
+    font-size: var(--normal-font-size);
+    margin-bottom: 1rem;
+}
+
+.size__content {
+    display: flex;
+}
+
+.size__tallas {
+    width: 30px;
+    height: 30px;
+    margin-right: .5rem;
+    font-size: var(--smaller-font-size);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.size__tallas.active {
+    background-color: var(--primary);
+    color: var(--write-color);
+}
+
+.cant__title {
+    font-size: var(--normal-font-size);
+    margin-bottom: 1rem;
+    transition: .5s;
+}
+
+.cant__content {
+    width: 100px;
+    height: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary);
+    color: var(--write-color);
+    padding: .7rem;
+    border-radius: 1.5rem;
+    transition: .5s;
+}
+
+.preci {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 83px;
+    background-color: var(--write-color);
+    border-radius: 1.5rem 1.5rem 0 0;
+    box-shadow: 0 0 20px rgba(17, 17, 17, 0.25);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.preci__title {
+    font-size: var(--normal-font-size);
+    color: var(--black-color);
+}
+
+.preci__button {
+    background-color: var(--primary);
+    color: var(--write-color);
+    padding: 1.25rem 3.125rem;
+    border-radius: 1.5rem;
+    transition: .5s;
+}
+
+.preci__value {
+    background-color: var(--primary);
+    color: var(--write-color);
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    transition: .5s;
+}
+
+.mode {
+    position: fixed;
+    right: 90px;
+    bottom: 5%;
+    width: 40px;
+    height: 40px;
+    color: var(--black);
+    background-color: var(--p-box-hover);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    transition: 0.5s;
+    box-shadow: 1px 2px 1px rgb(0 0 0 / 20%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.dark-theme {
+    --write: #111111;
+}
+
+@media screen and (max-width: 320px) {
+    .preci__button {
+        padding: 1.25rem 1.125rem;
+    }
+    .sneaker__img {
+        width: 250px;
+        top: -8%;
+        left: 4%;
+        right: 0;
+    }
+}
+
+@media screen and (min-width: 968px) {
+    body {
+        margin: 0;
+    }
+    .nav {
+        height: 3rem + 1rem;
+    }
+    .nav__list {
+        display: flex;
+    }
+    .nav__item {
+        margin-right: 3rem;
+        margin-bottom: 0;
+    }
+    .nav__toggle {
+        display: none;
+    }
+    .home {
+        height: 100vh;
+        grid-template-columns: max-content max-content;
+        grid-template-rows: max-content;
+        align-items: center;
+        justify-content: center;
+        column-gap: 6rem;
+        display: flex;
+    }
+    .sneaker__figure {
+        width: 430px;
+        height: 430px;
+    }
+    .sneaker__colors {
+        right: initial;
+        bottom: 0;
+    }
+    .sneaker__colors span {
+        display: inline-block;
+    }
+    .info {
+        align-self: center;
+    }
+    .data {
+        margin-bottom: 2.5rem;
+    }
+    .data__subtitle {
+        font-size: 1.5rem;
+    }
+    .data__title {
+        margin-bottom: 1rem;
+    }
+    .size {
+        margin-bottom: 2.5rem;
+    }
+    .size__tallas {
+        width: 34px;
+        height: 34px;
+        line-height: 35px;
+    }
+    .preci {
+        position: initial;
+        background-color: initial;
+        justify-content: space-between;
+        box-shadow: none;
+    }
+    .previ__title {
+        color: var(--black-color);
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .sneaker__img {
+        width: 250px;
+        left: 1%;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .sneaker__img {
+        width: 250px;
+        left: 1%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sneaker__img {
+        width: 250px;
+        left: 1%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sneaker__img {
+        width: 420px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .bd-grid {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sneaker {
+        padding: 10rem 0;
+    }
+    .sneaker__img {
+        width: 420px;
+        top: 70px;
+    }
+}
+
+.loader {
+    background: #fff url("../../loader.gif/loader2.gif") no-repeat center center;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.disppear {
+    animation: vanish 1s forwards;
+}
+
+@keyframes vanish {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
