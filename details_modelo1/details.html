@@ -20,13 +20,13 @@
                 <img src="../Imagens/menu.svg" width="15px" height="15px" />
             </div>
             <div>
-               <a href="https://allskiin.github.io/allskiin" class="nav__logo"><img src="../Imagens/logo-allskiin.svg" width="90px" height="90px" /></a>
+                <a href="" class="nav__logo"><img src="../Imagens/logo-allskiin.svg" width="90px" height="90px" /></a>
             </div>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item"><a class="nav__link" href="https://allskiin.github.io/allskiin">HOME</a></li>
                 </ul>
-               
+
             </div>
 
             <div class="nav__shop">
@@ -82,8 +82,60 @@
                     </div>
                 </div>
                 <div class="preci">
-                    <a class="preci__value">11.499,00 AOA</a>
-                    <a class="preci__button" href="#">COMPRAR</a>
+                    <a class="preci__value">11.499,00 Kz
+                    </a>
+
+
+
+                    <button class="preci__button" onclick="showModal()">COMPRAR</button>
+                    <div class="modal" id="modal">
+                        <div class="modal-content">
+                            <span class="close-button" onclick="closeModal()">
+                        &times;
+                            </span>
+                            <h1>Pagamento</h1>
+                            <div class="checkout">
+                                <div class="order">
+                                    <h2>Confira</h2>
+                                    <h5>Order #001</h5>
+                                    <ul class="order-list">
+                                        <li>
+                                            <img src="../Tsherts-allskiin-2022/allskiin_modelo1.png" alt="">
+                                            <h4>Ken Skiin</h4>
+                                            <h5>11.499,00 Kz</h5>
+                                        </li>
+                                    </ul>
+                                    <h5>Desconto</h5>
+                                    <h4>499,00 Kz</h4>
+                                    <h5 class="total">Total</h5>
+                                    <h1>11.000,00 Kz</h1>
+                                </div>
+                                <h2>Processos</h2>
+                                <div class="payment" id="payment">
+                                    <div class="card">
+                                        <div class="card-content">
+                                            <img src="../Imagens/logo-allskiin.svg" width="70px" height="70px" id="logo-allskiin">
+                                            <h3>nº da conta</h3>
+                                            <h5>131105688 10 001</h5>
+                                            <h3>Nome</h3>
+                                            <h5>Alyson Liberal</h5>
+                                        </div>
+                                        <div class='wave'></div>
+                                    </div>
+                                    <div class="dados">
+                                        <p>Iban</p>
+                                        <p>0040.0000.3110.5688.1015.7</p>
+                                        <p>Branco</p>
+                                        <p>BAI</p>
+                                    </div>
+                                    <div class='card-form'>
+                                        <button class='button-cta' title='Confirm your purchase'><span>Pagar</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
