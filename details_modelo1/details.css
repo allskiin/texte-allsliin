@@ -63,7 +63,8 @@ $font-bold: 700;
 body {
     margin: 3rem 0 0 0;
     font-family: var(--body-font);
-    background-image: var(--fundo);
+    /* background-image: var(--fundo); */
+    background: beige;
     background-size: 400px;
     background-position: center;
 }
