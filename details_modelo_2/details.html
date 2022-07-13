@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ken skiin • allskiin</title>
+    <link rel="stylesheet" href="details.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+</head>
+
+<body>
+
+
+
+    <header class="l-header">
+        <div class="loader"></div>
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <img src="../Imagens/menu.svg" width="15px" height="15px" />
+            </div>
+            <div>
+                <a href="" class="nav__logo"><img src="../Imagens/logo-allskiin.svg" width="90px" height="90px" /></a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="https://allskiin.github.io/allskiin">HOME</a></li>
+                </ul>
+
+            </div>
+
+            <div class="nav__shop">
+                <a class="img" href="#"><i class="bx bx-shopping-bag"></i></a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="l-main bd-grid">
+        <div class="home">
+            <div class="sneaker">
+
+                <div class="sneaker__figure"></div>
+
+                <div>
+                    <img src="../Tsherts-allskiin-2022/allskiin_modelo1.png" alt="" class="sneaker__img shows" color="#A29596" />
+                </div>
+
+                <div class="sneaker__colors">
+                    <span class="sneaker__color sneaker__colors-one active" primary="#A29596" color="#A29596"></span>
+                    <span class="sneaker__color sneaker__colors-two active" primary="#111111" color="#111111"></span>
+                </div>
+            </div>
+
+
+            <div class="info">
+                <div class="data">
+                    <span class="data__subtitle">allskiin</span>
+                    <h1 class="data__title">ken skiin</h1>
+                    <p class="data__description">A 'ken skiin' é o primeiro modelo a ser feito, com técidos de ótima qualidade, 100% algodão <br>Cor: Branco / Preto Estilo: aliin-1s</p>
+                </div>
+
+                <div class="actions">
+                    <div class="size">
+                        <h3 class="size__title">Tamanhos</h3>
+
+                        <div class="size__content">
+                            <span class="size__tallas active">S</span>
+                            <span class="size__tallas active">M</span>
+                            <span class="size__tallas active">XL</span>
+                        </div>
+                    </div>
+
+                    <div class="cant">
+                        <h3 class="cant__title">Quant.</h3>
+
+                        <div class="cant__content">
+                            <span>-</span>
+                            <span>1</span>
+                            <span>+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="preci">
+                    <a class="preci__value">11.499,00 Kz
+                    </a>
+
+
+
+                    <button class="preci__button" onclick="showModal()">COMPRAR</button>
+                    <div class="modal" id="modal">
+                        <div class="modal-content">
+                            <span class="close-button" onclick="closeModal()">
+                        &times;
+                            </span>
+                            <h1>Pagamento</h1>
+                            <div class="checkout">
+                                <div class="order">
+                                    <h2>Confira</h2>
+                                    <h5>Order #001</h5>
+                                    <ul class="order-list">
+                                        <li>
+                                            <img src="../Tsherts-allskiin-2022/allskiin_modelo1.png" alt="">
+                                            <h4>Ken Skiin</h4>
+                                            <h5>11.499,00 Kz</h5>
+                                        </li>
+                                    </ul>
+                                    <h5>Desconto</h5>
+                                    <h4>499,00 Kz</h4>
+                                    <h5 class="total">Total</h5>
+                                    <h1>11.000,00 Kz</h1>
+                                </div>
+                                <h2>Processos</h2>
+                                <div class="payment" id="payment">
+                                    <div class="card">
+                                        <div class="card-content">
+                                            <img src="../Imagens/logo-allskiin.svg" width="70px" height="70px" id="logo-allskiin">
+                                            <h3>nº da conta</h3>
+                                            <h5>131105688 10 001</h5>
+                                            <h3>Nome</h3>
+                                            <h5>Alyson Liberal</h5>
+                                        </div>
+                                        <div class='wave'></div>
+                                    </div>
+                                    <div class="dados">
+                                        <p>Iban</p>
+                                        <p>0040.0000.3110.5688.1015.7</p>
+                                        <p>Branco</p>
+                                        <p>BAI</p>
+                                    </div>
+                                    <div class='card-form'>
+                                        <a href="https://wa.me/message/BOZGIRQ5M4DYB1"><button class='button-cta' title='Confirm your purchase'><span>Pagar</span></button></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="details.js"></script>
+
+    <script>
+        var loader = document.querySelector(".loader")
+
+        window.addEventListener("load", vanish);
+
+        function vanish() {
+            loader.classList.add("disppear");
+        }
+
+
+        var mode = document.getElementById("mode");
+
+        mode.onclick = function() {
+            document.body.classList.toggle("dark-theme");
+
+            if (document.body.classList.contains("dark-theme")) {
+                mode.id = "fas fa-sun";
+            } else {
+                mode.id = "fas fa-moon";
+            }
+        }
+    </script>
+</body>
+
+</html>
