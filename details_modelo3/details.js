@@ -1,4 +1,3 @@
-nes (82 sloc)  3.25 KB
 const showMenu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId),
         nav = document.getElementById(navId)
