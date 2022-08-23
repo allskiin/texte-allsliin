@@ -661,7 +661,7 @@ a:hover .p-box::aflter {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 5px 30px rgb(var(--rgba) / 20%);
 }
 
 .subcribe-input input {
@@ -722,7 +722,7 @@ footer font {
 
 .footer-menu {
     display: flex;
-    box-shadow: 2px 5px 30px rgb(0 0 0 / 20%);
+    box-shadow: 2px 5px 30px rgb(var(--rgba) / 20%);
     background-color: var(--write);
     border-radius: 50px;
     justify-content: center;
