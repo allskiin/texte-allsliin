@@ -722,7 +722,7 @@ footer font {
 
 .footer-menu {
     display: flex;
-    box-shadow: 2px 5px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 5px 30px rgb(0 0 0 / 20%);
     background-color: var(--write);
     border-radius: 50px;
     justify-content: center;
@@ -738,7 +738,7 @@ footer font {
 }
 
 .footer-menu .bg {
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 5px 30px rgb(0 0 0 / 20%);
     background: var(--write);
     border-radius: 20px;
     font-family: 'Audiowide';
