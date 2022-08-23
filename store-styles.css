@@ -738,7 +738,7 @@ footer font {
 }
 
 .footer-menu .bg {
-    box-shadow: 2px 5px 30px rgb(0 0 0 / 20%);
+    box-shadow: 2px 5px 30px rgb(var(--rgba) / 20%);
     background: var(--write);
     border-radius: 20px;
     font-family: 'Audiowide';
@@ -813,6 +813,7 @@ footer font {
     --cancel-icon: #000;
     --search-icon-active: #fff; 
     --search-icon-active-icon: #000; 
+    --rgba: 0 0 0;
 }
 
 .dark-theme {
@@ -840,6 +841,7 @@ footer font {
     --cancel-icon: #fff;
     --search-icon-active: #000; 
     --search-icon-active-icon: #fff; 
+    --rgba: 255 255 255;
 }
 
 .mode {
