@@ -20,6 +20,7 @@ body {
     padding: 0px;
     font-family: myriad pro;
     background: var(--fundo);
+    transition: 1s;
 }
 
 * {
