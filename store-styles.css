@@ -326,10 +326,10 @@ ul {
 .main-text h1,
 h2 {
     font-family: roboto;
-    font-weight: 700;
+    font-weight: 500;
     margin: 0px;
     line-height: 60px;
-    font-size: 4rem;
+    font-size: 2rem;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
     letter-spacing: 3px;
     color: var(--main-btn);
